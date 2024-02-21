@@ -6,6 +6,7 @@ public:
 	MyFrameWnd()
 	{
 		Create(0, "Tilte Name Here");
+
 	}
 };
 
