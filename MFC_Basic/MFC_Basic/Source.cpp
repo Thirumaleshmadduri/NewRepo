@@ -13,13 +13,13 @@ public:
 class MyApp :public CWinApp// it manages main window (CWinApp derived from cWinThread class)
 {
 public:
-	BOOL InitInstance()
+	int InitInstance()
 	{
 		MyFrameWnd* pFrame = new MyFrameWnd;
 		m_pMainWnd = pFrame;
 		pFrame->ShowWindow(1);
 
-		return TRUE;
+		return 1;
 	}
 };
 MyApp myapp;
